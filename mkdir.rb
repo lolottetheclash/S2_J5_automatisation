@@ -29,7 +29,6 @@ def create_folder(rename)
  			line.puts "source \"https://rubygems.org\"\nruby '2.5.1'\ngem 'pry'\ngem 'rspec'\ngem 'pry'\ngem 'rubocop', '~> 0.57.2'\ngem 'dotenv'\ngem 'nokogiri'\ngem 'open_uri_redirections'\n"
  		end
 
- 	# cette partie ne marche pas :(
 
  	# sortie du dossier actuel pour se replacer dans le dossier crée par l'utilisateur
  	Dir.chdir("/Users/lauren/Desktop/THP/#{rename}/")
